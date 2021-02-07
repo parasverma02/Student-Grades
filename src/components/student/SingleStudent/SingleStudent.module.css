@@ -1,0 +1,103 @@
+.StudentContainer {
+    width: 100%;
+    /* background-color: burlywood; */
+    margin-bottom: 10px;
+    border-bottom: solid 1px rgba(212, 212, 212, 0.596) ;
+}
+
+.StudentContainer p{
+    margin: 5px 0;
+    font-weight: lighter;
+}
+
+.StudentCollapsible {
+    width: 100%;
+    min-height: 180px;
+    display: flex;
+    box-sizing: border-box;
+    /* padding: 10px 20px; */
+}
+
+.ImageContainer {
+    width: 20%;
+}
+
+.ImageContainer img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    border: solid 0.5px rgb(136, 136, 136);
+
+}
+
+.StudentInfoContainer {
+    width: 80%;
+}
+
+.StudentName_Expand {
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.StudentName_Expand h1 {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    box-sizing: border-box;
+}
+.ExpandButton {
+    width: 10%;
+    display: flex;
+    
+}
+
+.ExpandButton h1 {
+    width: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.StudentInfo, .StudentGrades, .AddTag, .Tags{
+    width: 100%;
+    padding: 5px 30px;
+    box-sizing: border-box;
+}
+
+/* .AddTag input {
+    outline: none;
+    border-style: none;
+    font-size: 15px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-bottom: solid 1px rgb(172, 171, 171);
+} */
+
+.Tags {
+    /* padding-top: 5px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Tags span {
+    padding: 10px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 4px;
+    margin: 3px;
+    font-weight: lighter;
+}
+
+.Collapse {
+    background-color: #ffb3b3;
+    width: 100%;
+    height: auto;
+
+}
+
+.NoneDisplay {
+    display: none;
+}
